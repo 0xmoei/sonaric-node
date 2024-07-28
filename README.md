@@ -1,6 +1,8 @@
 <h1 align="center">Installing Sonaric AI Node</h1>
 In this tutorial, we install Sonaric AI Node on a Linux machine to receive points
 
+> Node requirements are very low, You can run this alongside your other nodes
+
 ## System Requirements
 | Ram | cpu     | disk                      |
 | :-------- | :------- | :-------------------------------- |
