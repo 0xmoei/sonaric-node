@@ -1,4 +1,5 @@
 <h1 align="center">Installing Sonaric AI Node</h1>
+In this tutorial, we install Sonaric AI Node on a Linux machine to receive points
 
 ## System Requirements
 | Ram | cpu     | disk                      |
@@ -92,3 +93,19 @@ sonaric identity-export -o your-node-name.identity
 To receive instant **100** points, you can use this referral code in GUI dashboard: `nwfq5ty`
 
 ![Screenshot_146](https://github.com/user-attachments/assets/ed49be70-d765-49dd-81b2-b097aef2354f)
+
+## 8. Discord Role (Operator)
+
+Join Discord: https://discord.gg/jy5EZwhtZH
+
+1- Type: /addnode in #general
+
+2- Copy the code
+
+3- Move to your VPS, then paste:
+```
+curl -sSL http://get.sonaric.xyz/scripts/register.sh | bash -s -- CODE
+```
+change CODE with code from step above
+
+![image](https://github.com/user-attachments/assets/017acf1b-1aaf-44f1-8ac8-31382c72311e)
