@@ -106,6 +106,6 @@ Join Discord: https://discord.gg/jy5EZwhtZH
 ```
 curl -sSL http://get.sonaric.xyz/scripts/register.sh | bash -s -- CODE
 ```
-change CODE with code from step above
+Change CODE with code from step above
 
 ![image](https://github.com/user-attachments/assets/017acf1b-1aaf-44f1-8ac8-31382c72311e)
