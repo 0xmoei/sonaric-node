@@ -34,7 +34,7 @@ apt-get install sonaricd sonaric
 sonaric node-info
 ```
 
-## 5. Access GUI Dashboard (Check Rank & Points)
+## 5. Optional: Access GUI Dashboard (Check Rank & Points)
 * This step is optional, Do this only if you want to access the Sonaric GUI dashboard running on your VPS to check your points and node status
 
  1- You need to run the following command in your local machine like your Windows and **NOT in your VPS**
@@ -50,6 +50,18 @@ sonaric node-info
  5- Open a web browser on your local machine and navigate to http://localhost:44004 to access the Sonaric GUI.
 
 ![Screenshot_144](https://github.com/user-attachments/assets/fd6e028a-a6a6-48f6-a415-e15a8654bfc0)
+
+#
+
+* Optional: Install WSL on windows:
+ 
+  1- In windows start menu, Find and Right click on Windows Powershell and Open as administrator
+  
+  2- Install WSL with `wsl --install`
+  
+  3- Close & Open and then enter: `wsl` then enter a favorite user + password
+  
+  4- Your WSL terminal is ready!
 
 #
 
