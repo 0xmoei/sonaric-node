@@ -45,7 +45,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/ma
 
  1- You need to run the following command in your local machine like your Windows and **NOT in your VPS**
  
- 2- You can use WSL or Putty to run this command
+ 2- You need to install WSL ubuntu (Linux terminal) on your Windows -- [How To Intall WSL Ubuntu on Windows](https://github.com/0xmoei/Install-Linux-on-Windows)
 
  3- Before run the command, Replace `user` with your VPS username (usually it's `root`) and `your-vps-ip` with your VPS IP address
 
@@ -59,19 +59,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/ma
 
 #
 
-* Optional: Install WSL on windows:
- 
-  1- In windows start menu, Find and Right click on Windows Powershell and Open as administrator
-  
-  2- Install WSL with `wsl --install`
-  
-  3- Close & Open and then enter: `wsl` then enter a favorite user + password
-  
-  4- Your WSL terminal is ready!
-
-#
-
-Also, you can check your points by entering this command in VPS `sonaric points`
+You can check your points by entering this command in VPS `sonaric points`
 
 ![image](https://github.com/user-attachments/assets/068eb151-6f1f-43a4-aa7e-930713fcb1de)
 
