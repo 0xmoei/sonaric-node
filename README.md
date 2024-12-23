@@ -35,6 +35,9 @@ apt-get install sonaricd sonaric
 
 # To confirm the node is running the latest version
 sonaric node-info
+
+# Update if needed
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/main/linux-install-sonaric.sh)"
 ```
 
 ## 5. Optional: Access GUI Dashboard (Check Rank & Points)
