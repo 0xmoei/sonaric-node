@@ -97,7 +97,7 @@ Join Discord: https://discord.gg/jy5EZwhtZH
 sonaric node-register CODE
 ```
 
-**3- Type: /node in #general to list your nodes**
+**Type: /node in #general to list your nodes**
 
 ![image](https://github.com/user-attachments/assets/017acf1b-1aaf-44f1-8ac8-31382c72311e)
 
