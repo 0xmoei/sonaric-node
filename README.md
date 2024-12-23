@@ -16,7 +16,7 @@ sudo apt update && apt upgrade -y
 sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-essential jq lz4 gcc unzip snapd -y
 ```
 
-## 2. Sondaric Node
+## 2. Sonaric Node
 ```console
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/main/linux-install-sonaric.sh)"
 ```
