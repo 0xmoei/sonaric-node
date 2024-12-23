@@ -18,7 +18,7 @@ sudo apt install curl make wget clang net-tools pkg-config libssl-dev build-esse
 
 ## 2. Sonaric Node
 ```console
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/main/linux-install-sonaric.sh)"
+sh -c "$(curl -fsSL https://get.sonaric.xyz/scripts/install.sh)"
 ```
 * After Installation, Your node starts running in the background
 
