@@ -100,14 +100,15 @@ To receive instant **100** points, you can use this referral code in GUI dashboa
 
 Join Discord: https://discord.gg/jy5EZwhtZH
 
-1- Type: /addnode in #general
+**1- Type: /addnode in #general**
 
-2- Copy the code
+**2- Copy the code**
 
-3- Move to your VPS, then paste:
+![image](https://github.com/user-attachments/assets/1c83be62-27c1-418a-8c61-c377a8feeb73)
+
+**3- Move to your VPS, then replace your code with `CODE`:**
 ```
-curl -sSL http://get.sonaric.xyz/scripts/register.sh | bash -s -- CODE
+sonaric node-register CODE`
 ```
-Change CODE with code from step above
 
 ![image](https://github.com/user-attachments/assets/017acf1b-1aaf-44f1-8ac8-31382c72311e)
