@@ -37,7 +37,7 @@ apt-get install sonaricd sonaric
 sonaric node-info
 
 # Update if needed
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/main/linux-install-sonaric.sh)"
+sh -c "$(curl -fsSL https://get.sonaric.xyz/scripts/install.sh)"
 ```
 
 ## 5. Optional: Access GUI Dashboard (Check Rank & Points)
