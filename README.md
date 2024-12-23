@@ -104,7 +104,7 @@ sonaric node-register CODE
 ## 9. Multiple Nodes
 **You can add multiple nodes to your cluster by just adding them to your discord account in the same way**
 
-## 10. Optional: Delete node
+### 10. Optional: Delete node
 ```
 sudo apt remove --purge sonaricd sonaric
 ```
