@@ -50,8 +50,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/monk-io/sonaric-install/ma
  3- Before run the command, Replace `user` with your VPS username (usually it's `root`) and `your-vps-ip` with your VPS IP address
 
  4- After entering the command, You must Enter Yes, and your VPS password
- ```console
- ssh -L 127.0.0.1:44003:127.0.0.1:44003 -L 127.0.0.1:44004:127.0.0.1:44004 -L 127.0.0.1:44005:127.0.0.1:44005 -L 127.0.0.1:44006:127.0.0.1:44006 user@your-vps-ip
+```console
+ssh -L 127.0.0.1:44003:127.0.0.1:44003 -L 127.0.0.1:44004:127.0.0.1:44004 -L 127.0.0.1:44005:127.0.0.1:44005 -L 127.0.0.1:44006:127.0.0.1:44006 user@your-vps-ip
 ```
  5- Open a web browser on your local machine and navigate to http://localhost:44004 to access the Sonaric GUI.
 
@@ -77,11 +77,6 @@ sonaric identity-export -o your-node-name.identity
 >
 > It is normal to see different file contents each time you export the identity. The file is encrypted using a method that randomizes the output.
 
-## 6.2 Backup your node
-* You can back-up your node in GUI dashboard too
-
-![Screenshot_145](https://github.com/user-attachments/assets/7dc37b34-f790-40b2-a109-b34995bf4557)
-
 ## 7. Receive 100 Points
 To receive instant **100** points, you can use this referral code in GUI dashboard: `nwfq5ty`
 
@@ -99,7 +94,11 @@ Join Discord: https://discord.gg/jy5EZwhtZH
 
 **3- Move to your VPS, then replace your code with `CODE`:**
 ```
-sonaric node-register CODE`
+sonaric node-register CODE
 ```
 
+**3- Type: /node in #general to list your nodes**
+
 ![image](https://github.com/user-attachments/assets/017acf1b-1aaf-44f1-8ac8-31382c72311e)
+
+## You can add multiple nodes to your cluster by just adding them to your discord account in the same way
