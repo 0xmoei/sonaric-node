@@ -101,4 +101,5 @@ sonaric node-register CODE
 
 ![image](https://github.com/user-attachments/assets/017acf1b-1aaf-44f1-8ac8-31382c72311e)
 
-## You can add multiple nodes to your cluster by just adding them to your discord account in the same way
+## 9. Multiple Nodes
+**You can add multiple nodes to your cluster by just adding them to your discord account in the same way**
